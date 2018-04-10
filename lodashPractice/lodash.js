@@ -148,3 +148,6 @@ var purchases = [
 
 // First, group the purchases by company without lodash
 // then do it again using _.groupBy()
+
+const name =_.map(customers, 'first_name')
+console.log(name)
